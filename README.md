@@ -9,7 +9,7 @@ E no caso o composer.<br /></p>
 <p>Acesse a pasta do projeto pelo terminal e execute o comando de instalação phinx pelo composer.<br />
 "<i>composer require robmorgan/phinx</i>"<br /></p>
 
-<p>Será necessario a criaçao de um arquivo chamado "phinx.yml".<br />
+<p>Será necessario a criação de um arquivo chamado "phinx.yml".<br />
 Esse é o arquivo de configuração do phinx.<br />
 (Tambem e possivel dar o comando phinx init para criar o arquivo)<br /></p>
 
@@ -18,7 +18,7 @@ Esse é o arquivo de configuração do phinx.<br />
 <p>Agora e preciso instalar o sqlite para esse caso, digite:<br />
 "<i>sudo apt install php-sqlite3</i>"<br /></p>
 
-<p>E com isso temos tudo o necessario pra começar a desenvolver</p><br />
+<p>E com isso temos tudo que é necessario pra começar a desenvolver</p><br />
 
 <b><h3>Fazendo Migration</h3></b>
 <p>o Phinx é uma ferramenta via linha de comando para gerenciamento de migrações de banco de dados. Com ele você poderá escrever scripts PHP para efetuar as alterações que você necessita no seu banco de dados e gerenciar isso via linha de comando.<br /></p>
@@ -27,7 +27,7 @@ Esse é o arquivo de configuração do phinx.<br />
 "<i>vendor\bin\phinx create MinhaMigration</i>"<br />
 Ele cria um arquivo que já vem com um template definido, mas e necessario edita-lo.<br /></p>
 
-<p>Após configurar a tabela do formulário no arquivo de migration criado, digite o seguinte comando para executar a migracion<br />
+<p>Após configurar a tabela do formulário no arquivo de migration criado, digite o seguinte comando para executar a migration<br />
 <i>vendor/bin/phinx migrate</i><br /></p>
 
 <p>Com isso a tabela foi criada.</p><br />
@@ -40,5 +40,6 @@ E abrir localhost:8000 no navegador.<br /></p>
 
 <p>Para acessar o banco de dados e necessario usar um programa que trabalhe com sqlite.</p><br />
 
-<b><h4></h4><p>E uma aplicação basica com formulário php em uma pagina simples "index.php" onde se pode cadastrar nome, telefone e uma mensagem em um banco de dados sqlite.
+<b><h3>Descrição</h3></b>
+<b><h4></h4><p>E uma aplicação basica com formulário php em uma pagina simples "index.php" onde se pode cadastrar nome, telefone e uma mensagem em um banco de dados sqlite.<br />
 Tambem e possivel acessar a lista de cadastrados pelo arquivo "listagem.php", onde se pode editar e apagar cadastros.</p></h4></b><br />
